@@ -10,3 +10,4 @@
 //= link food_happousai.jpg
 //= link food_yurinchu.jpg
 //= link food_rebanira.jpg
+//= link food_mabo_doufu.jpg

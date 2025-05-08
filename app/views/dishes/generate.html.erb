@@ -1,2 +1,26 @@
-<h1>Dishes#generate</h1>
-<p>Find me in app/views/dishes/generate.html.erb</p>
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <div class="card text-center shadow" style="min-height: 600px;">
+        <div class="card-body d-flex flex-column">
+
+          <div class="flex-grow-1 d-flex flex-column justify-content-center">
+            <h1 class="text-danger mb-4">🍜 今日はこれに決まり！！</h1>
+
+            <% if @dish %>
+              <h2 class="text-warning h4 mb-3"><%= @dish[:name] %></h2>
+              <%= image_tag @dish[:image], alt: @dish[:name], class: "img-fluid fixed-img mb-4 mx-auto" %>
+            <% else %>
+              <p class="text-muted">ボタンを押して料理を選びましょう！</p>
+            <% end %>
+          </div>
+
+          <div>
+            <%= button_to "料理を決める！", generate_path, method: :get, class: "btn btn-danger btn-lg mt-3" %>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
