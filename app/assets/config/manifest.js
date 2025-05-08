@@ -1,0 +1,12 @@
+//= link_tree ../images
+//= link_tree ../builds
+//= link_tree ../../../vendor/javascript .js
+//= link food_gyouza.jpg
+//= link ramen_syouyu.jpg
+//= link ramen_tantanmen.jpg
+//= link food_hoikoro.jpg
+//= link food_subuta.jpg
+//= link food_cha-han.jpg
+//= link food_happousai.jpg
+//= link food_yurinchu.jpg
+//= link food_rebanira.jpg
